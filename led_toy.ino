@@ -32,6 +32,7 @@ void loop() {
     }
     previous_state = 0;
     delay(10);
+    // delay to avoid contact bounce
   } else {
     prev = 0;
     delay(10);
